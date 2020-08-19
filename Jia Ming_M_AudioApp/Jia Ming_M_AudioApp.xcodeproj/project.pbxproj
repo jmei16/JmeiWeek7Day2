@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709FB30824ECE1AE00621ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB30724ECE1AE00621ACA /* AppDelegate.swift */; };
+		709FB30A24ECE1AE00621ACA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB30924ECE1AE00621ACA /* SceneDelegate.swift */; };
+		709FB30C24ECE1AE00621ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB30B24ECE1AE00621ACA /* ViewController.swift */; };
+		709FB30F24ECE1AE00621ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709FB30D24ECE1AE00621ACA /* Main.storyboard */; };
+		709FB31124ECE1AF00621ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709FB31024ECE1AF00621ACA /* Assets.xcassets */; };
+		709FB31424ECE1AF00621ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709FB31224ECE1AF00621ACA /* LaunchScreen.storyboard */; };
+		709FB31F24ECE1AF00621ACA /* Jia_Ming_M_AudioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB31E24ECE1AF00621ACA /* Jia_Ming_M_AudioAppTests.swift */; };
+		709FB32A24ECE1AF00621ACA /* Jia_Ming_M_AudioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709FB32924ECE1AF00621ACA /* Jia_Ming_M_AudioAppUITests.swift */; };
+		709FB33824ECE4D700621ACA /* Apex Legends Main Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 709FB33724ECE4D700621ACA /* Apex Legends Main Theme.mp3 */; };
+		709FB33A24ECE52800621ACA /* apex-featured-image-16x9.jpg.adapt.crop191x100.1200w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709FB33924ECE52800621ACA /* apex-featured-image-16x9.jpg.adapt.crop191x100.1200w.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		709FB31B24ECE1AF00621ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 709FB2FC24ECE1AE00621ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709FB30324ECE1AE00621ACA;
+			remoteInfo = "Jia Ming_M_AudioApp";
+		};
+		709FB32624ECE1AF00621ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 709FB2FC24ECE1AE00621ACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709FB30324ECE1AE00621ACA;
+			remoteInfo = "Jia Ming_M_AudioApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		709FB30424ECE1AE00621ACA /* Jia Ming_M_AudioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jia Ming_M_AudioApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709FB30724ECE1AE00621ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		709FB30924ECE1AE00621ACA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		709FB30B24ECE1AE00621ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		709FB30E24ECE1AE00621ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		709FB31024ECE1AF00621ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		709FB31324ECE1AF00621ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		709FB31524ECE1AF00621ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709FB31A24ECE1AF00621ACA /* Jia Ming_M_AudioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jia Ming_M_AudioAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709FB31E24ECE1AF00621ACA /* Jia_Ming_M_AudioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jia_Ming_M_AudioAppTests.swift; sourceTree = "<group>"; };
+		709FB32024ECE1AF00621ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709FB32524ECE1AF00621ACA /* Jia Ming_M_AudioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jia Ming_M_AudioAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709FB32924ECE1AF00621ACA /* Jia_Ming_M_AudioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jia_Ming_M_AudioAppUITests.swift; sourceTree = "<group>"; };
+		709FB32B24ECE1AF00621ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709FB33724ECE4D700621ACA /* Apex Legends Main Theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Apex Legends Main Theme.mp3"; sourceTree = "<group>"; };
+		709FB33924ECE52800621ACA /* apex-featured-image-16x9.jpg.adapt.crop191x100.1200w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apex-featured-image-16x9.jpg.adapt.crop191x100.1200w.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709FB30124ECE1AE00621ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB31724ECE1AF00621ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB32224ECE1AF00621ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		709FB2FB24ECE1AE00621ACA = {
+			isa = PBXGroup;
+			children = (
+				709FB30624ECE1AE00621ACA /* Jia Ming_M_AudioApp */,
+				709FB31D24ECE1AF00621ACA /* Jia Ming_M_AudioAppTests */,
+				709FB32824ECE1AF00621ACA /* Jia Ming_M_AudioAppUITests */,
+				709FB30524ECE1AE00621ACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		709FB30524ECE1AE00621ACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709FB30424ECE1AE00621ACA /* Jia Ming_M_AudioApp.app */,
+				709FB31A24ECE1AF00621ACA /* Jia Ming_M_AudioAppTests.xctest */,
+				709FB32524ECE1AF00621ACA /* Jia Ming_M_AudioAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709FB30624ECE1AE00621ACA /* Jia Ming_M_AudioApp */ = {
+			isa = PBXGroup;
+			children = (
+				709FB30724ECE1AE00621ACA /* AppDelegate.swift */,
+				709FB30924ECE1AE00621ACA /* SceneDelegate.swift */,
+				709FB30B24ECE1AE00621ACA /* ViewController.swift */,
+				709FB30D24ECE1AE00621ACA /* Main.storyboard */,
+				709FB31024ECE1AF00621ACA /* Assets.xcassets */,
+				709FB33924ECE52800621ACA /* apex-featured-image-16x9.jpg.adapt.crop191x100.1200w.jpg */,
+				709FB33724ECE4D700621ACA /* Apex Legends Main Theme.mp3 */,
+				709FB31224ECE1AF00621ACA /* LaunchScreen.storyboard */,
+				709FB31524ECE1AF00621ACA /* Info.plist */,
+			);
+			path = "Jia Ming_M_AudioApp";
+			sourceTree = "<group>";
+		};
+		709FB31D24ECE1AF00621ACA /* Jia Ming_M_AudioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				709FB31E24ECE1AF00621ACA /* Jia_Ming_M_AudioAppTests.swift */,
+				709FB32024ECE1AF00621ACA /* Info.plist */,
+			);
+			path = "Jia Ming_M_AudioAppTests";
+			sourceTree = "<group>";
+		};
+		709FB32824ECE1AF00621ACA /* Jia Ming_M_AudioAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				709FB32924ECE1AF00621ACA /* Jia_Ming_M_AudioAppUITests.swift */,
+				709FB32B24ECE1AF00621ACA /* Info.plist */,
+			);
+			path = "Jia Ming_M_AudioAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709FB30324ECE1AE00621ACA /* Jia Ming_M_AudioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709FB32E24ECE1AF00621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_AudioApp" */;
+			buildPhases = (
+				709FB30024ECE1AE00621ACA /* Sources */,
+				709FB30124ECE1AE00621ACA /* Frameworks */,
+				709FB30224ECE1AE00621ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jia Ming_M_AudioApp";
+			productName = "Jia Ming_M_AudioApp";
+			productReference = 709FB30424ECE1AE00621ACA /* Jia Ming_M_AudioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		709FB31924ECE1AF00621ACA /* Jia Ming_M_AudioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709FB33124ECE1AF00621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_AudioAppTests" */;
+			buildPhases = (
+				709FB31624ECE1AF00621ACA /* Sources */,
+				709FB31724ECE1AF00621ACA /* Frameworks */,
+				709FB31824ECE1AF00621ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709FB31C24ECE1AF00621ACA /* PBXTargetDependency */,
+			);
+			name = "Jia Ming_M_AudioAppTests";
+			productName = "Jia Ming_M_AudioAppTests";
+			productReference = 709FB31A24ECE1AF00621ACA /* Jia Ming_M_AudioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		709FB32424ECE1AF00621ACA /* Jia Ming_M_AudioAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709FB33424ECE1AF00621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_AudioAppUITests" */;
+			buildPhases = (
+				709FB32124ECE1AF00621ACA /* Sources */,
+				709FB32224ECE1AF00621ACA /* Frameworks */,
+				709FB32324ECE1AF00621ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709FB32724ECE1AF00621ACA /* PBXTargetDependency */,
+			);
+			name = "Jia Ming_M_AudioAppUITests";
+			productName = "Jia Ming_M_AudioAppUITests";
+			productReference = 709FB32524ECE1AF00621ACA /* Jia Ming_M_AudioAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709FB2FC24ECE1AE00621ACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jia Ming Mei";
+				TargetAttributes = {
+					709FB30324ECE1AE00621ACA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					709FB31924ECE1AF00621ACA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 709FB30324ECE1AE00621ACA;
+					};
+					709FB32424ECE1AF00621ACA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 709FB30324ECE1AE00621ACA;
+					};
+				};
+			};
+			buildConfigurationList = 709FB2FF24ECE1AE00621ACA /* Build configuration list for PBXProject "Jia Ming_M_AudioApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 709FB2FB24ECE1AE00621ACA;
+			productRefGroup = 709FB30524ECE1AE00621ACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709FB30324ECE1AE00621ACA /* Jia Ming_M_AudioApp */,
+				709FB31924ECE1AF00621ACA /* Jia Ming_M_AudioAppTests */,
+				709FB32424ECE1AF00621ACA /* Jia Ming_M_AudioAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709FB30224ECE1AE00621ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709FB33A24ECE52800621ACA /* apex-featured-image-16x9.jpg.adapt.crop191x100.1200w.jpg in Resources */,
+				709FB31424ECE1AF00621ACA /* LaunchScreen.storyboard in Resources */,
+				709FB33824ECE4D700621ACA /* Apex Legends Main Theme.mp3 in Resources */,
+				709FB31124ECE1AF00621ACA /* Assets.xcassets in Resources */,
+				709FB30F24ECE1AE00621ACA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB31824ECE1AF00621ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB32324ECE1AF00621ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709FB30024ECE1AE00621ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709FB30C24ECE1AE00621ACA /* ViewController.swift in Sources */,
+				709FB30824ECE1AE00621ACA /* AppDelegate.swift in Sources */,
+				709FB30A24ECE1AE00621ACA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB31624ECE1AF00621ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709FB31F24ECE1AF00621ACA /* Jia_Ming_M_AudioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709FB32124ECE1AF00621ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709FB32A24ECE1AF00621ACA /* Jia_Ming_M_AudioAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		709FB31C24ECE1AF00621ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 709FB30324ECE1AE00621ACA /* Jia Ming_M_AudioApp */;
+			targetProxy = 709FB31B24ECE1AF00621ACA /* PBXContainerItemProxy */;
+		};
+		709FB32724ECE1AF00621ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 709FB30324ECE1AE00621ACA /* Jia Ming_M_AudioApp */;
+			targetProxy = 709FB32624ECE1AF00621ACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		709FB30D24ECE1AE00621ACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709FB30E24ECE1AE00621ACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		709FB31224ECE1AF00621ACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709FB31324ECE1AF00621ACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		709FB32C24ECE1AF00621ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		709FB32D24ECE1AF00621ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		709FB32F24ECE1AF00621ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_AudioApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-AudioApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		709FB33024ECE1AF00621ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_AudioApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-AudioApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		709FB33224ECE1AF00621ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_AudioAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-AudioAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jia Ming_M_AudioApp.app/Jia Ming_M_AudioApp";
+			};
+			name = Debug;
+		};
+		709FB33324ECE1AF00621ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_AudioAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-AudioAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jia Ming_M_AudioApp.app/Jia Ming_M_AudioApp";
+			};
+			name = Release;
+		};
+		709FB33524ECE1AF00621ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_AudioAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-AudioAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jia Ming_M_AudioApp";
+			};
+			name = Debug;
+		};
+		709FB33624ECE1AF00621ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_AudioAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-AudioAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jia Ming_M_AudioApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709FB2FF24ECE1AE00621ACA /* Build configuration list for PBXProject "Jia Ming_M_AudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709FB32C24ECE1AF00621ACA /* Debug */,
+				709FB32D24ECE1AF00621ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709FB32E24ECE1AF00621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_AudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709FB32F24ECE1AF00621ACA /* Debug */,
+				709FB33024ECE1AF00621ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709FB33124ECE1AF00621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_AudioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709FB33224ECE1AF00621ACA /* Debug */,
+				709FB33324ECE1AF00621ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709FB33424ECE1AF00621ACA /* Build configuration list for PBXNativeTarget "Jia Ming_M_AudioAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709FB33524ECE1AF00621ACA /* Debug */,
+				709FB33624ECE1AF00621ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709FB2FC24ECE1AE00621ACA /* Project object */;
+}
